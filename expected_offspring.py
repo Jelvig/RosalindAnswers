@@ -8,7 +8,7 @@ def reader():
         nums = list(map(lambda x: int(x),nums))
         return nums
 
-def summer(nums):
+def expected(nums):
     dominance = {'AA_AA': 1,'AA_Aa': 1, 'AA_aa': 1, 'Aa_Aa': (3/4), 'Aa_aa': (2/4),'aa_aa':	0}
     count = 0
     babies = 0
@@ -19,4 +19,4 @@ def summer(nums):
 
    
 nums = reader()
-summer(nums)
+expected(nums)
